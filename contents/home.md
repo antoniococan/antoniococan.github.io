@@ -7,11 +7,12 @@ Doctoral researcher in mathematics working in inverse problems. My main focus is
 
 #### Contact
 
-Email: user[at]fas.harvard.edu
+Email: antoniococan[at]proton[dot]me
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+PhD, Mathematics, University of Jyvaskyla, 2022-present.
+MSc, Mathematics, University of Gothenburg, 2019-2022.
+BSc, Economics and Mathematics, 2015—2019.
 
 #### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
+Inverse problems; algebraic geometry; computational algebra.
