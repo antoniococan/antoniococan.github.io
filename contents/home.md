@@ -10,7 +10,7 @@ Doctoral researcher in mathematics working in inverse problems. My main focus is
 Email: antoniococan[at]proton[dot]me
 
 #### Education
-PhD, Mathematics, University of Jyvaskyla, 2022-present.  
+PhD, Mathematics, University of Jyväskylä, 2022-present.  
 MSc, Mathematics, University of Gothenburg, 2019-2022.  
 BSc, Economics and Mathematics, 2015—2019.
 
