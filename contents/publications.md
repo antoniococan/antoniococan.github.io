@@ -3,8 +3,11 @@
 - <strong>Generic Recovery of Permittivity and Permeability in Anisotropic Maxwell Systems</strong>  
   Antonio Cocan, Maarten V. de Hoop, Joonas Ilmavirta, Matti Lassas and Anthony Várilly-Alvarado  
   Preprint, arXiv: 2608.02900, Aug 2026  
-  [[arXiv]](https://github.com/senli1073/LaNCor) | [[PDF]](https://github.com/senli1073/LaNCor)
-- <strong>S. Li</strong>*, X. Yang, S. M. Mousavi, A. Cao, K. Fan, Y. Liu, C. Wang, and Q. Niu. Learning Earthquake Wave Arrival Time Picking from Labels with Inaccuracies. <strong>Under Review</strong> [[Code]](https://github.com/senli1073/LaNCor)
+  [[arXiv]](https://arxiv.org/abs/2608.02900) | [[PDF]](https://arxiv.org/pdf/2608.02900)
+- <strong>Classification of singularities of planar slowness surfaces</strong>  
+  Antonio Cocan, Maarten V. de Hoop, Joonas Ilmavirta, Pieti Kirkkopelto and Antti Kykkänen  
+  Preprint, arXiv: 2606.28527, Jun 2026  
+  [[arXiv]](https://arxiv.org/abs/2608.02900) | [[PDF]](https://arxiv.org/pdf/2608.02900)
 
 #### Published
 
