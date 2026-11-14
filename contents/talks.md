@@ -9,6 +9,20 @@
   Rice University, Houston Texas, USA, Nov 2025
 - <strong>Higher Dimensional Slowness Surface Distortion</strong>  
   Forum AGENT, Jyväskylä, Finland, Aug 2024
+- <strong>Higher Dimensional Slowness Surface Distortion</strong>  
+  Inverse Days 2023, Lahti, Finland, Dec 2023
+- <strong>Algebraic Geometry Methods Used in the Study of Slowness Surfaces</strong>  
+  Inverse Problems Group Meeting, University of Jyväskylä, Finland, Sep 2023
+- <strong>Introduction to Category Theory</strong>  
+  Graduate Student Seminar, University of Jyväskylä, Finland, Mar 2023
+- <strong>Introduction to Category Theory</strong>  
+  Graduate Student Seminar, University of Jyväskylä, Finland, Mar 2023
+- <strong>Introduction to Algebraic Geometry III</strong>  
+  Seminar for Young Researchers, University of Jyväskylä, Finland, Feb 2023
+- <strong>Introduction to Algebraic Geometry II: Projective Geometry</strong>  
+  Seminar for Young Researchers, University of Jyväskylä, Finland, Jan 2023
+- <strong>Introduction to Algebraic Geometry I: Affine Geometry</strong>  
+  Seminar for Young Researchers, University of Jyväskylä, Finland, Nov 2022
 
 #### Conferences & Research Visits
 
