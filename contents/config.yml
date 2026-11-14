@@ -22,7 +22,11 @@ sections:
     nav: PUBLICATIONS
     title: PUBLICATIONS
     icon: bi-file-text-fill
-  - id: awards
-    nav: AWARDS
-    title: AWARDS
-    icon: bi-award-fill
+  - id: talks
+    nav: CONFERENCES & TALKS
+    title: CONFERENCES & TALKS
+    icon: bi-easel-fill
+  - id: teaching
+    nav: TEACHING
+    title: TEACHING
+    icon: bi-mortarboard-fill
