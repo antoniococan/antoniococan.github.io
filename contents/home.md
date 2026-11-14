@@ -2,7 +2,7 @@
 
 [![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+Doctoral researcher in mathematics working in inverse problems. My main focus is using algebraic geometry -- varieties and schemes -- to study inverse problems.
 
 #### Contact
 
