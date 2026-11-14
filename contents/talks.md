@@ -24,6 +24,15 @@
 
 #### Conferences & Research Visits
 
-- Conference 1
-- Conference 2
-- Visit 1
+- Inverse Days 2026, Jyväskylä, Finland
+- Research visit to Kaie Kubjas at Aalto University, Espoo, Finland
+- Inverse Days 2025, Helsinki, Finland
+- Invited research visit by Maarten de Hoop to Rice University, Houston Texas, USA
+- Inverse Days 2024, Oulu, Finland
+- International Conference on Inverse Problems Theory and Computation & International Summer School of Modern Mathematics – Inverse Problems, Fudan University, Shanghai, China
+- Inverse Days 2023, Lahti, Finland
+- Applied Inverse Problems Conference (AIP2023), Göttingen, Germany
+- Summer School in Microlocal and Probabilistic Methods in Geometry and Dynamics, Paris, France
+- Inverse Days 2022, Tahko, Finland
+- Inverse Problems in Analysis and Geometry, Helsinki, Finland
+- Jyväskylä Summer School, Jyväskylä, Finland
