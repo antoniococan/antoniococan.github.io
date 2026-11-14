@@ -15,7 +15,7 @@ license-link:
 sections:
   - id: home
     nav: HOME
-    title: Antonio Cocan
+    title: RESEARCH PROFILE
     href: '#page-top' # Default to '#<id>' if not specified
   - id: publications
     nav: PUBLICATIONS
