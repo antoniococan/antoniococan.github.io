@@ -8,7 +8,7 @@ Doctoral researcher in mathematics specializing in inverse problems and algebrai
 #### Education
 PhD, Mathematics, University of Jyväskylä, 2022-present. Thesis submitted in November 2026; expected graduation in February 2027.  
 MSc, Mathematics, University of Gothenburg, 2019-2022.  
-BSc, Economics and Mathematics, 2015—2019.
+BSc, Economics and Mathematics, 2015-2019.
 
 #### Research Interests
 Inverse problems; algebraic geometry; computational algebra.
