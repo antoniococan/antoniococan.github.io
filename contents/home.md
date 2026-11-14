@@ -12,3 +12,6 @@ BSc, Economics and Mathematics, 2015—2019.
 
 #### Research Interests
 Inverse problems; algebraic geometry; computational algebra.
+
+#### Technical and Computational Skills
+Magma, Mathematica, C, C++, Raylib, Git, Latex, Linux, Windows, MacOS
