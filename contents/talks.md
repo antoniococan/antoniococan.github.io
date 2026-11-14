@@ -15,8 +15,6 @@
   Inverse Problems Group Meeting, University of Jyväskylä, Finland, Sep 2023
 - <strong>Introduction to Category Theory</strong>  
   Graduate Student Seminar, University of Jyväskylä, Finland, Mar 2023
-- <strong>Introduction to Category Theory</strong>  
-  Graduate Student Seminar, University of Jyväskylä, Finland, Mar 2023
 - <strong>Introduction to Algebraic Geometry III</strong>  
   Seminar for Young Researchers, University of Jyväskylä, Finland, Feb 2023
 - <strong>Introduction to Algebraic Geometry II: Projective Geometry</strong>  
