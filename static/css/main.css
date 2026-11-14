@@ -2,7 +2,7 @@
 
 
 :root {
-    --h-title-color: #3948d2;
+    --h-title-color: #A51C30;
     --top-section-overlay: 0.52;
     --skeleton-base: #e4e7eb;
     --skeleton-highlight: #f5f7fa;
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border-bottom: solid 2px #A51C30;
     z-index: 10000;
 }
 
