@@ -1,8 +1,7 @@
 
 #### Teaching Experience
 
-- <strong>Course Instructor – Algebraic Geometry I: Affine and Projective Varieties (6 ECTS)
-</strong>  
+- <strong>Course Instructor – Algebraic Geometry I: Affine and Projective Varieties (6 ECTS) </strong>  
   University of Jyväskylä, Finland, Spring 2026  
   Language of instruction: English  
   Independently designed and delivered the course. In particular, I prepared lectures, course materials, exercise sheets and examinations. I was responsible for student assessment, grading and final evaluation
