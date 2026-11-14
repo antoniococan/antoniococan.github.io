@@ -1,11 +1,8 @@
 title: Antonio Cocan's Homepage
 page-top-title: Antonio Cocan
-top-section-bg-text: Mathematics
-backgrounds:
-  - static/assets/background/background_0.jpeg
-  - static/assets/background/background_1.jpeg
-background-interval-ms: 7000
-background-overlay: 0.52
+profile-name: Antonio Cocan
+profile-role: Doctoral Researcher in Mathematics
+profile-affiliation: Department of Mathematics<br>University of Jyväskylä
 copyright-text: '&copy; Antonio Cocan 2026. All Rights Reserved.'
 github-link:
   text: Github
