@@ -262,3 +262,106 @@ section .main-body {
         animation: none;
     }
 }
+
+
+/* ==========================================
+   PERSONAL ACADEMIC PROFILE HEADER
+   ========================================== */
+
+body {
+    background: #ffffff;
+}
+
+/* Main profile area */
+.profile-header {
+    background: #F7F3EF;
+    padding: 105px 20px 48px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Keep profile content centered */
+.profile-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Profile photograph */
+.profile-photo {
+    display: block;
+    width: 155px;
+    height: 155px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 0 auto 22px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Your name */
+.profile-header h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-weight: 600;
+    color: #292929;
+    margin-bottom: 8px;
+}
+
+/* Academic title */
+.profile-role {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #A51C30;
+    margin-bottom: 8px;
+}
+
+/* University and department */
+.profile-affiliation {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+/* Academic links */
+.profile-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.95rem;
+}
+
+.profile-links a {
+    color: #A51C30;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.profile-links a:hover {
+    color: #6F1424;
+    text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .profile-header {
+        padding: 90px 18px 35px;
+    }
+
+    .profile-photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .profile-role {
+        font-size: 1.05rem;
+    }
+
+    .profile-affiliation {
+        font-size: 0.95rem;
+    }
+}
+
