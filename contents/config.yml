@@ -16,6 +16,7 @@ sections:
   - id: home
     nav: HOME
     title: RESEARCH PROFILE
+    icon: bi-person-lines-fill
     href: '#page-top' # Default to '#<id>' if not specified
   - id: publications
     nav: PUBLICATIONS
