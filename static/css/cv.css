@@ -75,3 +75,17 @@ body {
         font-size: 1rem;
     }
 }
+
+html,
+body {
+    background: #F7F3EF !important;
+    background-color: #F7F3EF !important;
+}
+
+.cv-content {
+    background: #F7F3EF !important;
+}
+
+body > main {
+    background: #F7F3EF !important;
+}
