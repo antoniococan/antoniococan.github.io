@@ -70,12 +70,19 @@ body {
 }
 
 /* Footer */
-.cv-footer {
-    background: #A51C30;
-    padding: 25px;
-    text-align: center;
-    color: rgba(255,255,255,0.75);
-    font-size: 0.85rem;
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-content {
+    flex: 1;
 }
 
 /* Mobile responsiveness */
