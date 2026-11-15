@@ -22,7 +22,7 @@ body {
     font-family: "Newsreader", Georgia, serif;
     font-size: clamp(2.2rem, 5vw, 3rem);
     font-weight: 600;
-    color: #6F1424;
+    color: #A51C30;
     margin-bottom: 20px;
 }
 
@@ -52,13 +52,13 @@ body {
 }
 
 .cv-content a:hover {
-    color: #6F1424;
+    color: #A51C30;
     text-decoration: underline;
 }
 
 /* Footer */
 .cv-footer {
-    background: #6F1424;
+    background: #A51C30;
     padding: 25px;
     text-align: center;
     color: rgba(255,255,255,0.75);
