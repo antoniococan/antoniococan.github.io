@@ -1,3 +1,16 @@
+/*
+
+Color palettes to try:
+
+Harvard Crimson:            #A51C30
+Oxford-style Burgundy:      #8F1D2C
+Oxford Navy:                #002147
+Oxford Green:               #154734
+
+Currently in use: #A51C30 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+
+*/
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - New Age v6.0.7 (https://startbootstrap.com/theme/new-age)
@@ -34,7 +47,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #A51C30;
+  --bs-primary: ;
   --bs-secondary: #9f1ae2;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
