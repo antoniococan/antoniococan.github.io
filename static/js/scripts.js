@@ -346,6 +346,23 @@ window.addEventListener('DOMContentLoaded', event => {
             return Promise.all(getConfiguredSections(yml).map(loadMarkdownSection));
         })
         .then(() => typesetMath())
+        .then(() => {
+            // Handle links to dynamically generated sections
+            const hash = decodeURIComponent(window.location.hash.slice(1));
+
+            if (hash) {
+                const target = document.getElementById(hash);
+
+                if (target) {
+                    window.requestAnimationFrame(() => {
+                        target.scrollIntoView({
+                            behavior: 'auto',
+                            block: 'start'
+                        });
+                    });
+                }
+            }
+        })
         .catch(error => console.log(error))
         .finally(() => markSiteReady());
 
