@@ -1,3 +1,16 @@
+/*
+
+Color palettes to try:
+
+Harvard Crimson:            #A51C30
+Oxford-style Burgundy:      #8F1D2C
+Oxford Navy:                #002147
+Oxford Green:               #154734
+
+Currently in use: #A51C30 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+
+*/
+
 @import "./styles.css";
 
 
