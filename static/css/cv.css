@@ -89,3 +89,8 @@ body {
 body > main {
     background: #F7F3EF !important;
 }
+
+.cv-highlight {
+    color: #A51C30;
+    font-weight: 600;
+}
