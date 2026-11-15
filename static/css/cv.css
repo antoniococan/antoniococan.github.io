@@ -1,0 +1,77 @@
+
+/* ==========================================
+   CURRICULUM VITAE PAGE
+   Harvard Crimson Academic Theme
+   ========================================== */
+
+body {
+    background: #F7F3EF;
+    min-height: 100vh;
+}
+
+/* Main content */
+.cv-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 150px 25px 100px;
+    min-height: 80vh;
+}
+
+/* Page heading */
+.cv-content h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 600;
+    color: #6F1424;
+    margin-bottom: 20px;
+}
+
+/* Crimson divider */
+.cv-divider {
+    width: 55px;
+    height: 3px;
+    background: #A51C30;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+/* Paragraphs */
+.cv-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+/* Links */
+.cv-content a {
+    color: #A51C30;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cv-content a:hover {
+    color: #6F1424;
+    text-decoration: underline;
+}
+
+/* Footer */
+.cv-footer {
+    background: #6F1424;
+    padding: 25px;
+    text-align: center;
+    color: rgba(255,255,255,0.75);
+    font-size: 0.85rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .cv-content {
+        padding: 120px 22px 70px;
+    }
+
+    .cv-content p {
+        font-size: 1rem;
+    }
+}
