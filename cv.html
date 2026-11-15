@@ -149,13 +149,19 @@ fetch('contents/config.yml')
     .then(response => response.text())
     .then(config => {
         const copyright = config.match(/copyright-text:\s*["']?(.+?)["']?\s*$/m);
+        const lastUpdated = config.match(/last-updated:\s*["']?(.+?)["']?\s*$/m);
 
         if (copyright) {
             document.getElementById('copyright-text').textContent =
                 copyright[1].replace(/^["']|["']$/g, '');
         }
+
+        if (lastUpdated) {
+            document.getElementById('last-updated').textContent =
+                lastUpdated[1].replace(/^["']|["']$/g, '');
+        }
     })
-    .catch(error => console.error('Could not load copyright:', error));
+    .catch(error => console.error('Could not load footer config:', error));
 </script>
     
 </body>
