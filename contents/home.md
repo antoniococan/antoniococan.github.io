@@ -7,9 +7,9 @@ Doctoral researcher in mathematics specializing in inverse problems and algebrai
 
 #### Education
 <strong>PhD, Mathematics, University of Jyväskylä, 2022-present.</strong> Thesis submitted in November 2026; expected graduation in February 2027.  
-Advisor(s): [[Joonas Ilmavirta]](https://users.jyu.fi/~jojapeil/) & [[Anthony Várilly-Alvarado]](https://math.rice.edu/~av15/).  
+Advisor(s): [Joonas Ilmavirta](https://users.jyu.fi/~jojapeil/) & [Anthony Várilly-Alvarado](https://math.rice.edu/~av15/).  
 <strong>MSc, Mathematics, University of Gothenburg, 2019-2022.</strong>  
-Advisor: [[Dennis Eriksson]](https://denniseriksson-math.github.io/Dennis-Math/)  
+Advisor: [Dennis Eriksson](https://denniseriksson-math.github.io/Dennis-Math/)  
 <strong>BSc, Economics and Mathematics, 2015-2019.</strong>
 
 #### Research Interests
