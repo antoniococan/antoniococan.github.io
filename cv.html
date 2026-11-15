@@ -1,5 +1,203 @@
-Curriculum Vitae
 
-A copy of my curriculum vitae is available upon request.
+<!DOCTYPE html>
+<html lang="en">
 
-Please contact me by email if you would like to receive a copy.
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Curriculum Vitae | Your Name</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+          href="static/assets/favicon.ico">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+          rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&display=swap"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&display=swap"
+          rel="stylesheet">
+
+    <!-- Your existing website stylesheet -->
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <!-- Bootstrap JavaScript for responsive navbar -->
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CV page styling -->
+    <style>
+        body {
+            background: #F7F3EF;
+            min-height: 100vh;
+        }
+
+        .cv-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 150px 25px 100px;
+            min-height: 80vh;
+        }
+
+        .cv-content h1 {
+            font-family: "Newsreader", Georgia, serif;
+            font-size: clamp(2.2rem, 5vw, 3rem);
+            font-weight: 600;
+            color: #6F1424;
+            margin-bottom: 20px;
+        }
+
+        .cv-divider {
+            width: 55px;
+            height: 3px;
+            background: #A51C30;
+            margin-bottom: 30px;
+            border-radius: 3px;
+        }
+
+        .cv-content p {
+            font-size: 1.1rem;
+            line-height: 1.9;
+            font-weight: 300;
+            color: #333333;
+            margin-bottom: 12px;
+        }
+
+        .cv-content a {
+            color: #A51C30;
+            text-decoration: none;
+        }
+
+        .cv-content a:hover {
+            color: #6F1424;
+            text-decoration: underline;
+        }
+
+        .cv-footer {
+            background: #6F1424;
+            padding: 25px;
+            text-align: center;
+            color: rgba(255,255,255,0.75);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .cv-content {
+                padding: 120px 22px 70px;
+            }
+
+            .cv-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm"
+         id="mainNav">
+
+        <div class="container px-5">
+
+            <a class="navbar-brand fw-bold"
+               href="index.html#page-top">
+                Your Name
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                MENU
+                <i class="bi-list"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="navbarResponsive">
+
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3"
+                           href="index.html#research-profile">
+                            RESEARCH PROFILE
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3"
+                           href="index.html#publications">
+                            PUBLICATIONS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3"
+                           href="index.html#talks">
+                            CONFERENCES &amp; TALKS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3"
+                           href="index.html#teaching">
+                            TEACHING
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- CV Content -->
+    <main class="cv-content">
+
+        <h1>Curriculum Vitae</h1>
+
+        <div class="cv-divider"></div>
+
+        <p>
+            A copy of my curriculum vitae is available upon request.
+        </p>
+
+        <p>
+            Please contact me by email if you would like to receive a copy.
+        </p>
+
+        <p style="margin-top: 28px;">
+            <i class="bi bi-envelope-fill"
+               style="color: #A51C30; margin-right: 8px;"></i>
+
+            <a href="mailto:YOUR.EMAIL@jyu.fi">
+                Contact me by email
+            </a>
+        </p>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="cv-footer">
+        Your Name · University of Jyväskylä
+    </footer>
+
+</body>
+</html>
