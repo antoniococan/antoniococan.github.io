@@ -143,6 +143,19 @@
             </div>
         </div>
     </footer>
+<script>
+fetch('contents/config.yml')
+    .then(response => response.text())
+    .then(config => {
+        const copyright = config.match(/copyright-text:\s*["']?(.+?)["']?\s*$/m);
 
+        if (copyright) {
+            document.getElementById('copyright-text').textContent =
+                copyright[1].replace(/^["']|["']$/g, '');
+        }
+    })
+    .catch(error => console.error('Could not load copyright:', error));
+</script>
+    
 </body>
 </html>
