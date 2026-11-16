@@ -7,7 +7,7 @@ Oxford-style Burgundy:      #8F1D2C
 Oxford Navy:                #002147
 Oxford Green:               #154734
 
-Currently in use: #A51C30 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with the one you want)
 
 */
 
@@ -35,7 +35,7 @@ body {
     font-family: "Newsreader", Georgia, serif;
     font-size: clamp(2.2rem, 5vw, 3rem);
     font-weight: 600;
-    color: #A51C30;
+    color: #002147;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ body {
 .cv-divider {
     width: 55px;
     height: 3px;
-    background: #A51C30;
+    background: #002147;
     margin-bottom: 30px;
     border-radius: 3px;
 }
@@ -59,13 +59,13 @@ body {
 
 /* Links */
 .cv-content a {
-    color: #A51C30;
+    color: #002147;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .cv-content a:hover {
-    color: #A51C30;
+    color: #002147;
     text-decoration: underline;
 }
 
@@ -111,6 +111,6 @@ body > main {
 }
 
 .cv-highlight {
-    color: #A51C30;
+    color: #002147;
     font-weight: 600;
 }
