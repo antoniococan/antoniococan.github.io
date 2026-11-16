@@ -11,502 +11,6 @@ Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with th
 
 */
 
-
-/* ==========================================
-   CURRICULUM VITAE PAGE
-   Harvard Crimson Academic Theme
-   ========================================== */
-
-body {
-    background-color: #F7F3EF;
-    min-height: 100vh;
-}
-
-/* Main content */
-.cv-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 150px 25px 100px;
-    min-height: 80vh;
-}
-
-/* Page heading */
-.cv-content h1 {
-    font-family: "Newsreader", Georgia, serif;
-    font-size: clamp(2.2rem, 5vw, 3rem);
-    font-weight: 600;
-    color: #154734;
-    margin-bottom: 20px;
-}
-
-/* Crimson divider */
-.cv-divider {
-    width: 55px;
-    height: 3px;
-    background: #154734;
-    margin-bottom: 30px;
-    border-radius: 3px;
-}
-
-/* Paragraphs */
-.cv-content p {
-    font-size: 1.1rem;
-    line-height: 1.9;
-    font-weight: 300;
-    color: #333333;
-    margin-bottom: 12px;
-}
-
-/* Links */
-.cv-content a {
-    color: #154734;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.cv-content a:hover {
-    color: #154734;
-    text-decoration: underline;
-}
-
-/* Footer */
-html,
-body {
-    min-height: 100%;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.cv-content {
-    flex: 1;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-    .cv-content {
-        padding: 120px 22px 70px;
-    }
-
-    .cv-content p {
-        font-size: 1rem;
-    }
-}
-
-html,
-body {
-    background: #F7F3EF !important;
-    background-color: #F7F3EF !important;
-}
-
-.cv-content {
-    background: #F7F3EF !important;
-}
-
-body > main {
-    background: #F7F3EF !important;
-}
-
-.cv-highlight {
-    color: #154734;
-    font-weight: 600;
-}
-
-/*
-
-Color palettes to try:
-
-Harvard Crimson:            #A51C30
-Oxford-style Burgundy:      #8F1D2C
-Oxford Navy:                #002147
-Oxford Green:               #154734
-
-Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
-
-*/
-
-
-:root {
-    --h-title-color: #154734;
-    --top-section-overlay: 0.52;
-    --skeleton-base: #e4e7eb;
-    --skeleton-highlight: #f5f7fa;
-}
-
-body {
-    background: #ffffff;
-}
-
-.header {
-    border-bottom: solid 2px #154734;
-    z-index: 10000;
-}
-
-.page-skeleton {
-    position: fixed;
-    top: 25rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 8000;
-    overflow: auto;
-    background: #ffffff;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: none;
-    padding-top: 2.4rem;
-    transition: opacity 280ms ease, visibility 280ms ease;
-}
-
-.site-ready .page-skeleton {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.skeleton-block {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    border-radius: 4px;
-    background: var(--skeleton-base);
-}
-
-.skeleton-block::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    transform: translateX(-100%);
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.58), transparent);
-    animation: skeleton-shimmer 1450ms ease-in-out infinite;
-}
-
-.skeleton-section {
-    padding: 4rem 0;
-}
-
-.skeleton-section-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff);
-}
-
-.skeleton-section-gray {
-    background: #F7F3EF;
-}
-
-.skeleton-section-title {
-    width: 42%;
-    height: 2rem;
-    margin-bottom: 2rem;
-}
-
-.skeleton-line {
-    height: 1.1rem;
-    margin-bottom: 1rem;
-}
-
-.skeleton-line-long {
-    width: 100%;
-}
-
-.skeleton-line:not(.skeleton-line-long):not(.skeleton-line-short) {
-    width: 88%;
-}
-
-.skeleton-line-short {
-    width: 68%;
-}
-
-@keyframes skeleton-shimmer {
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-.bg-bottom {
-    background-color: var(--h-title-color);
-}
-
-.top-section {
-    position: relative;
-    padding: 10rem 0;
-    height: 25rem;
-    overflow: hidden;
-    background-color: #18202a;
-}
-
-.site-loading .top-section {
-    background:
-        linear-gradient(90deg, rgba(255, 255, 255, 0.12), rgba(231, 235, 240, 0.16)),
-        linear-gradient(135deg, #edf0f3, #f8f9fb);
-}
-
-.top-section h2 {
-    font-weight: 400;
-}
-
-.top-section .top-section-content {
-    position: relative;
-    z-index: 2;
-}
-
-.top-section-bg {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    background-position: center;
-    background-size: cover;
-    opacity: 0;
-    transform: scale(1.03);
-    transition: opacity 1200ms ease, transform 7000ms ease;
-}
-
-.top-section-bg-active {
-    opacity: 1;
-    transform: scale(1);
-}
-
-.top-section:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background:
-        linear-gradient(90deg, rgba(0, 0, 0, calc(var(--top-section-overlay) + 0.12)), rgba(0, 0, 0, var(--top-section-overlay))),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.36));
-}
-
-.site-loading .top-section:before {
-    background:
-        linear-gradient(90deg, rgba(255, 255, 255, 0.24), rgba(222, 227, 234, 0.2)),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(222, 227, 234, 0.16));
-}
-
-.site-loading .top-section::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    transform: translateX(-100%);
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    animation: skeleton-shimmer 1450ms ease-in-out infinite;
-}
-
-section header h2 {
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color);
-    font-size: 2.3rem;
-    line-height: 4rem;
-}
-
-section .main-body {
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
-    text-align: left;
-}
-
-/* Content column: 80% of the viewport on large screens (10% whitespace
-   each side), capped at 1200px for readability on very wide screens.
-   Bootstrap's own caps are 960/1140/1320px at lg/xl/xxl. */
-@media (min-width: 992px) {
-    .container {
-        max-width: min(1150px, 80vw);
-    }
-}
-
-
-.bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
-}
-
-.bg-gradient-primary-to-secondary-gray {
-    background: #F7F3EF;
-}
-
-
-
-.on-top {
-    position: relative;
-    z-index: 10000;
-}
-
-.top-bg {
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.top-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-
-#avatar {
-    position: relative;
-    height: 0;
-    top: min(-65px, max(-100px, calc(-1*100vw/12)));
-    max-width: 55em;
-    margin: 0 1.5rem 0 0;
-    float: right;
-    z-index: 9000;
-}
-
-#avatar img {
-    width: min(180px, max(130px, calc(100vw / 6)));
-    height: auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
-
-@media screen and (max-width: 991px) {
-    #avatar {
-        margin: 0;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .top-section-bg {
-        transition: none;
-        transform: none;
-    }
-
-    .page-skeleton {
-        transition: none;
-    }
-
-    .skeleton-block::after {
-        animation: none;
-    }
-}
-
-
-/* ==========================================
-   PERSONAL ACADEMIC PROFILE HEADER
-   ========================================== */
-
-body {
-    background: #ffffff;
-}
-
-/* Main profile area */
-.profile-header {
-    background: #F7F3EF;
-    padding: 105px 20px 48px;
-    text-align: center;
-    width: 100%;
-}
-
-/* Keep profile content centered */
-.profile-container {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-/* Profile photograph */
-.profile-photo {
-    display: block;
-    width: 155px;
-    height: 155px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
-    margin: 0 auto 22px;
-    border: 4px solid #ffffff;
-    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
-}
-
-/* Your name */
-.profile-header h1 {
-    font-family: "Newsreader", Georgia, serif;
-    font-size: clamp(2.2rem, 5vw, 3.2rem);
-    font-weight: 600;
-    color: #292929;
-    margin-bottom: 8px;
-}
-
-/* Academic title */
-.profile-role {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #154734;
-    margin-bottom: 8px;
-}
-
-/* University and department */
-.profile-affiliation {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: #555555;
-    margin-bottom: 15px;
-    white-space: pre-line;
-}
-
-/* Academic links */
-.profile-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 0.95rem;
-}
-
-.profile-links a {
-    color: #154734;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.profile-links a:hover {
-    color: #6F1424;
-    text-decoration: underline;
-}
-
-/* Mobile adjustments */
-@media (max-width: 600px) {
-    .profile-header {
-        padding: 90px 18px 35px;
-    }
-
-    .profile-photo {
-        width: 130px;
-        height: 130px;
-    }
-
-    .profile-role {
-        font-size: 1.05rem;
-    }
-
-    .profile-affiliation {
-        font-size: 0.95rem;
-    }
-}
-
-/*
-
-Color palettes to try:
-
-Harvard Crimson:            #A51C30
-Oxford-style Burgundy:      #8F1D2C
-Oxford Navy:                #002147
-Oxford Green:               #154734
-
-Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
-
-*/
-
 @charset "UTF-8";
 /*!
 * Start Bootstrap - New Age v6.0.7 (https://startbootstrap.com/theme/new-age)
@@ -11418,6 +10922,504 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
+
+
+
+/*
+
+Color palettes to try:
+
+Harvard Crimson:            #A51C30
+Oxford-style Burgundy:      #8F1D2C
+Oxford Navy:                #002147
+Oxford Green:               #154734
+
+Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+
+*/
+
+
+/* ==========================================
+   CURRICULUM VITAE PAGE
+   Harvard Crimson Academic Theme
+   ========================================== */
+
+body {
+    background-color: #F7F3EF;
+    min-height: 100vh;
+}
+
+/* Main content */
+.cv-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 150px 25px 100px;
+    min-height: 80vh;
+}
+
+/* Page heading */
+.cv-content h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 600;
+    color: #154734;
+    margin-bottom: 20px;
+}
+
+/* Crimson divider */
+.cv-divider {
+    width: 55px;
+    height: 3px;
+    background: #154734;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+/* Paragraphs */
+.cv-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+/* Links */
+.cv-content a {
+    color: #154734;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cv-content a:hover {
+    color: #154734;
+    text-decoration: underline;
+}
+
+/* Footer */
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-content {
+    flex: 1;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .cv-content {
+        padding: 120px 22px 70px;
+    }
+
+    .cv-content p {
+        font-size: 1rem;
+    }
+}
+
+html,
+body {
+    background: #F7F3EF !important;
+    background-color: #F7F3EF !important;
+}
+
+.cv-content {
+    background: #F7F3EF !important;
+}
+
+body > main {
+    background: #F7F3EF !important;
+}
+
+.cv-highlight {
+    color: #154734;
+    font-weight: 600;
+}
+
+/*
+
+Color palettes to try:
+
+Harvard Crimson:            #A51C30
+Oxford-style Burgundy:      #8F1D2C
+Oxford Navy:                #002147
+Oxford Green:               #154734
+
+Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+
+*/
+
+
+:root {
+    --h-title-color: #154734;
+    --top-section-overlay: 0.52;
+    --skeleton-base: #e4e7eb;
+    --skeleton-highlight: #f5f7fa;
+}
+
+body {
+    background: #ffffff;
+}
+
+.header {
+    border-bottom: solid 2px #154734;
+    z-index: 10000;
+}
+
+.page-skeleton {
+    position: fixed;
+    top: 25rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 8000;
+    overflow: auto;
+    background: #ffffff;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+    padding-top: 2.4rem;
+    transition: opacity 280ms ease, visibility 280ms ease;
+}
+
+.site-ready .page-skeleton {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.skeleton-block {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 4px;
+    background: var(--skeleton-base);
+}
+
+.skeleton-block::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.58), transparent);
+    animation: skeleton-shimmer 1450ms ease-in-out infinite;
+}
+
+.skeleton-section {
+    padding: 4rem 0;
+}
+
+.skeleton-section-light {
+    background: linear-gradient(45deg, #fcfcfc, #ffffff);
+}
+
+.skeleton-section-gray {
+    background: #F7F3EF;
+}
+
+.skeleton-section-title {
+    width: 42%;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skeleton-line {
+    height: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.skeleton-line-long {
+    width: 100%;
+}
+
+.skeleton-line:not(.skeleton-line-long):not(.skeleton-line-short) {
+    width: 88%;
+}
+
+.skeleton-line-short {
+    width: 68%;
+}
+
+@keyframes skeleton-shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.bg-bottom {
+    background-color: var(--h-title-color);
+}
+
+.top-section {
+    position: relative;
+    padding: 10rem 0;
+    height: 25rem;
+    overflow: hidden;
+    background-color: #18202a;
+}
+
+.site-loading .top-section {
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.12), rgba(231, 235, 240, 0.16)),
+        linear-gradient(135deg, #edf0f3, #f8f9fb);
+}
+
+.top-section h2 {
+    font-weight: 400;
+}
+
+.top-section .top-section-content {
+    position: relative;
+    z-index: 2;
+}
+
+.top-section-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    transform: scale(1.03);
+    transition: opacity 1200ms ease, transform 7000ms ease;
+}
+
+.top-section-bg-active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.top-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background:
+        linear-gradient(90deg, rgba(0, 0, 0, calc(var(--top-section-overlay) + 0.12)), rgba(0, 0, 0, var(--top-section-overlay))),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.36));
+}
+
+.site-loading .top-section:before {
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.24), rgba(222, 227, 234, 0.2)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(222, 227, 234, 0.16));
+}
+
+.site-loading .top-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: skeleton-shimmer 1450ms ease-in-out infinite;
+}
+
+section header h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    color: var(--h-title-color);
+    font-size: 2.3rem;
+    line-height: 4rem;
+}
+
+section .main-body {
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 2.4rem;
+    text-align: left;
+}
+
+/* Content column: 80% of the viewport on large screens (10% whitespace
+   each side), capped at 1200px for readability on very wide screens.
+   Bootstrap's own caps are 960/1140/1320px at lg/xl/xxl. */
+@media (min-width: 992px) {
+    .container {
+        max-width: min(1150px, 80vw);
+    }
+}
+
+
+.bg-gradient-primary-to-secondary-light {
+    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+}
+
+.bg-gradient-primary-to-secondary-gray {
+    background: #F7F3EF;
+}
+
+
+
+.on-top {
+    position: relative;
+    z-index: 10000;
+}
+
+.top-bg {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.top-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+#avatar {
+    position: relative;
+    height: 0;
+    top: min(-65px, max(-100px, calc(-1*100vw/12)));
+    max-width: 55em;
+    margin: 0 1.5rem 0 0;
+    float: right;
+    z-index: 9000;
+}
+
+#avatar img {
+    width: min(180px, max(130px, calc(100vw / 6)));
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 991px) {
+    #avatar {
+        margin: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .top-section-bg {
+        transition: none;
+        transform: none;
+    }
+
+    .page-skeleton {
+        transition: none;
+    }
+
+    .skeleton-block::after {
+        animation: none;
+    }
+}
+
+
+/* ==========================================
+   PERSONAL ACADEMIC PROFILE HEADER
+   ========================================== */
+
+body {
+    background: #ffffff;
+}
+
+/* Main profile area */
+.profile-header {
+    background: #F7F3EF;
+    padding: 105px 20px 48px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Keep profile content centered */
+.profile-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Profile photograph */
+.profile-photo {
+    display: block;
+    width: 155px;
+    height: 155px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 0 auto 22px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Your name */
+.profile-header h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-weight: 600;
+    color: #292929;
+    margin-bottom: 8px;
+}
+
+/* Academic title */
+.profile-role {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #154734;
+    margin-bottom: 8px;
+}
+
+/* University and department */
+.profile-affiliation {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555555;
+    margin-bottom: 15px;
+    white-space: pre-line;
+}
+
+/* Academic links */
+.profile-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.95rem;
+}
+
+.profile-links a {
+    color: #154734;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.profile-links a:hover {
+    color: #6F1424;
+    text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .profile-header {
+        padding: 90px 18px 35px;
+    }
+
+    .profile-photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .profile-role {
+        font-size: 1.05rem;
+    }
+
+    .profile-affiliation {
+        font-size: 0.95rem;
+    }
+}
 
 
 
