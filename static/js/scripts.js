@@ -60,7 +60,7 @@ function renderNavigation(navItems) {
 
     blogItem.className = 'nav-item';
     blogLink.className = 'nav-link me-lg-3';
-    blogLink.href = '/blog.html';
+    blogLink.href = 'https://antoniococan.github.io/blogcocan/';
     blogLink.textContent = 'BLOG';
 
     blogItem.appendChild(blogLink);
