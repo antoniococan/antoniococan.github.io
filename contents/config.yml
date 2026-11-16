@@ -31,3 +31,7 @@ sections:
     nav: TEACHING
     title: TEACHING
     icon: bi-book-fill
+  - id: blog
+    nav: BLOG
+    title: BLOG
+    icon: bi-book-fill
