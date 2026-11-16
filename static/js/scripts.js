@@ -53,6 +53,18 @@ function renderNavigation(navItems) {
         listItem.appendChild(link);
         navbarItems.appendChild(listItem);
     });
+
+    // Add Blog link
+    const blogItem = document.createElement('li');
+    const blogLink = document.createElement('a');
+
+    blogItem.className = 'nav-item';
+    blogLink.className = 'nav-link me-lg-3';
+    blogLink.href = '/blog.html';
+    blogLink.textContent = 'BLOG';
+
+    blogItem.appendChild(blogLink);
+    navbarItems.appendChild(blogItem);
 }
 
 function normalizeSections(sections) {
