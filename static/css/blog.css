@@ -1,0 +1,116 @@
+/*
+
+Color palettes to try:
+
+Harvard Crimson:            #A51C30
+Oxford-style Burgundy:      #8F1D2C
+Oxford Navy:                #002147
+Oxford Green:               #154734
+
+Currently in use: #A51C30 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+
+*/
+
+
+/* ==========================================
+   CURRICULUM VITAE PAGE
+   Harvard Crimson Academic Theme
+   ========================================== */
+
+body {
+    background-color: #F7F3EF;
+    min-height: 100vh;
+}
+
+/* Main content */
+.cv-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 150px 25px 100px;
+    min-height: 80vh;
+}
+
+/* Page heading */
+.cv-content h1 {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 600;
+    color: #A51C30;
+    margin-bottom: 20px;
+}
+
+/* Crimson divider */
+.cv-divider {
+    width: 55px;
+    height: 3px;
+    background: #A51C30;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+/* Paragraphs */
+.cv-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+/* Links */
+.cv-content a {
+    color: #A51C30;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cv-content a:hover {
+    color: #A51C30;
+    text-decoration: underline;
+}
+
+/* Footer */
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-content {
+    flex: 1;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .cv-content {
+        padding: 120px 22px 70px;
+    }
+
+    .cv-content p {
+        font-size: 1rem;
+    }
+}
+
+html,
+body {
+    background: #F7F3EF !important;
+    background-color: #F7F3EF !important;
+}
+
+.cv-content {
+    background: #F7F3EF !important;
+}
+
+body > main {
+    background: #F7F3EF !important;
+}
+
+.cv-highlight {
+    color: #A51C30;
+    font-weight: 600;
+}
