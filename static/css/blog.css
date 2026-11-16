@@ -7,7 +7,7 @@ Oxford-style Burgundy:      #8F1D2C
 Oxford Navy:                #002147
 Oxford Green:               #154734
 
-Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
 
 */
 
@@ -35,7 +35,7 @@ body {
     font-family: "Newsreader", Georgia, serif;
     font-size: clamp(2.2rem, 5vw, 3rem);
     font-weight: 600;
-    color: #002147;
+    color: #154734;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ body {
 .cv-divider {
     width: 55px;
     height: 3px;
-    background: #002147;
+    background: #154734;
     margin-bottom: 30px;
     border-radius: 3px;
 }
@@ -59,13 +59,13 @@ body {
 
 /* Links */
 .cv-content a {
-    color: #002147;
+    color: #154734;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .cv-content a:hover {
-    color: #002147;
+    color: #154734;
     text-decoration: underline;
 }
 
@@ -111,7 +111,7 @@ body > main {
 }
 
 .cv-highlight {
-    color: #002147;
+    color: #154734;
     font-weight: 600;
 }
 
@@ -124,13 +124,13 @@ Oxford-style Burgundy:      #8F1D2C
 Oxford Navy:                #002147
 Oxford Green:               #154734
 
-Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
 
 */
 
 
 :root {
-    --h-title-color: #002147;
+    --h-title-color: #154734;
     --top-section-overlay: 0.52;
     --skeleton-base: #e4e7eb;
     --skeleton-highlight: #f5f7fa;
@@ -141,7 +141,7 @@ body {
 }
 
 .header {
-    border-bottom: solid 2px #002147;
+    border-bottom: solid 2px #154734;
     z-index: 10000;
 }
 
@@ -440,7 +440,7 @@ body {
 .profile-role {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #002147;
+    color: #154734;
     margin-bottom: 8px;
 }
 
@@ -464,7 +464,7 @@ body {
 }
 
 .profile-links a {
-    color: #002147;
+    color: #154734;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -503,7 +503,7 @@ Oxford-style Burgundy:      #8F1D2C
 Oxford Navy:                #002147
 Oxford Green:               #154734
 
-Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with the one you want)
+Currently in use: #154734 (to change, simply ctrl+F or cmd+F and replace with the one you want)
 
 */
 
@@ -520,7 +520,7 @@ Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with th
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #002147;
+  --bs-blue: #154734;
   --bs-indigo: #6610f2;
   --bs-purple: #9f1ae2;
   --bs-pink: #d63384;
@@ -582,7 +582,7 @@ Currently in use: #002147 (to change, simply ctrl+F or cmd+F and replace with th
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #002147;
+  --bs-link-color: #154734;
   --bs-link-hover-color: #6F1424;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -11381,7 +11381,7 @@ section {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus {
-  color: #002147;
+  color: #154734;
 }
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
@@ -11397,7 +11397,7 @@ section {
    color: var(--bs-blue)
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #002147;
+  color: #154734;
 }
 
 
